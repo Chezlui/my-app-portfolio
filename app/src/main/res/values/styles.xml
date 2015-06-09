@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- inherit from the material theme -->
+        <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/accent_light</item>
+        <item name="android:textColorPrimary">@color/text_dark_grey</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+
+    </style>
+    <style name="ButtonAppTheme" parent="android:Widget.Material.Button">
+        <item name="android:background">@color/accent</item>
+    </style>
+
+    <style name="button_regular_style">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/accent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:layout_margin">6dp</item>
+    </style>
+
+
+</resources>
